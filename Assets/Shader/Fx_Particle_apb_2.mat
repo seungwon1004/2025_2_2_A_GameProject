@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Fx_Particle_apb
+  m_Name: Fx_Particle_apb_2
   m_Shader: {fileID: -6465566751694194690, guid: f7f5233b57addc24aa3a7dec969f8c0f,
     type: 3}
   m_Parent: {fileID: 0}
