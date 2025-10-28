@@ -209,7 +209,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -2.99}
+  m_LocalPosition: {x: 0, y: 0.6, z: -1.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -623,6 +623,74 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4961fd47d7b66934fb5e4879c368c7df, type: 3}
+--- !u!1001 &785389221449222920
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1342503424845793282, guid: e060be5bce2199d459af7e80fca923b5,
+        type: 3}
+      propertyPath: m_Name
+      value: Fx_Energy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4317210184294595895, guid: e060be5bce2199d459af7e80fca923b5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4317210184294595895, guid: e060be5bce2199d459af7e80fca923b5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4317210184294595895, guid: e060be5bce2199d459af7e80fca923b5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4317210184294595895, guid: e060be5bce2199d459af7e80fca923b5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4317210184294595895, guid: e060be5bce2199d459af7e80fca923b5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4317210184294595895, guid: e060be5bce2199d459af7e80fca923b5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4317210184294595895, guid: e060be5bce2199d459af7e80fca923b5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4317210184294595895, guid: e060be5bce2199d459af7e80fca923b5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4317210184294595895, guid: e060be5bce2199d459af7e80fca923b5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4317210184294595895, guid: e060be5bce2199d459af7e80fca923b5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e060be5bce2199d459af7e80fca923b5, type: 3}
 --- !u!199 &3405540813370715818
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -6886,7 +6954,7 @@ ParticleSystem:
         m_NumAlphaKeys: 2
   UVModule:
     serializedVersion: 2
-    enabled: 0
+    enabled: 1
     mode: 0
     timeMode: 0
     fps: 30
@@ -10522,6 +10590,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Splash_Water
       objectReference: {fileID: 0}
+    - target: {fileID: 3824396569133485443, guid: fb69d86baa036ea4e81e106c0789c320,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9222666265890008418, guid: fb69d86baa036ea4e81e106c0789c320,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10609,3 +10682,4 @@ SceneRoots:
   - {fileID: 536898646169711466}
   - {fileID: 6243835090404421611}
   - {fileID: 6610284480189651175}
+  - {fileID: 785389221449222920}
