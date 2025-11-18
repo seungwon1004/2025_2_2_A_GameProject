@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2333975647402561658}
+  - component: {fileID: 3563749926579126722}
   m_Layer: 0
   m_Name: Vfx_Chain
   m_TagString: Untagged
@@ -32,6 +33,20 @@ Transform:
   - {fileID: 5540163661232574681}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3563749926579126722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121926308617810863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6327554d41f852f4999c168eb14ca12c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lineRenderers:
+  - {fileID: 4987302219512060898}
 --- !u!1 &4744185875257975156
 GameObject:
   m_ObjectHideFlags: 0
